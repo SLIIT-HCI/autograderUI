@@ -2,3 +2,6 @@ autochecker
 build
 dist
 Examples
+app.spec
+debug.log
+Important commands.txt
