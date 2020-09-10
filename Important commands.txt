@@ -1,0 +1,2 @@
+pip install pyinstaller
+python -m eel app.py web --noconsole --onefile

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="/eel.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Autograder.</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <img class="logo-page navbar-brand" src="images/Autograder.png" alt="logo">
+        <ul class="navbar-nav justify-content-end">
+            <li class="nav-item">
+                <button type="button" class="btn btn-dark" onclick="openMenu()">Main Menu</button>
+            </li>
+            <li>
+                <button type="button" class="btn btn-dark" onclick="getFileLocation()">Load Answer</button>
+            </li>
+            <li>
+                <button type="button" class="btn btn-dark" onclick="getMarkingGuide()">Load Marking Scheme</button>
+            </li>
+        </ul>
+    </nav>
+
+
+
+    <div class="row text-white">
+        <div id="answer" class="col-sm-8">
+            <h4 id='ansTxt'>Load Answer</h4>
+        </div>
+        <div id="marking" class="col-sm-4">
+            <h4 id="markTxt">Load Marking Scheme CSV</h4>
+        </div>
+
+    </div>
+
+    
+
+</body>
+
+</html>
